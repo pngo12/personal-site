@@ -5,7 +5,7 @@ const Skills = () => {
         <div class="section services gray align-left" id="services-section">
             <div class="fw">
                 <div class="titles animated">
-                    <div class="title">What I Do</div>
+                    <div class="title">My Skills</div>
                 </div>
                 <div class="row">
                     <div class="col col-m-12 col-t-6 col-d-4">
