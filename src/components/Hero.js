@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Started = () => {
+const Hero = () => {
     return ( 
         <div class="section started">
             <div class="slide" 
             // style="background-image: url(images/slide-bg-1.jpg);"
+            // style={{backgroundColor: 'black'}}
             ></div>
             <div class="centrize full-width">
                 <div class="vertical-center">
@@ -13,8 +14,6 @@ const Started = () => {
                             <p>Web Applications</p>
                             <p>Problem Solver</p>
                             <p>Web Design</p>
-                            <p>Mobile Apps</p>
-                            <p>Analytics</p>
                         </div>
                         <span class="typed-title"></span>
                     </div>
@@ -25,4 +24,4 @@ const Started = () => {
      );
 }
  
-export default Started;
+export default Hero;

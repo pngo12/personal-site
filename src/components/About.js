@@ -5,13 +5,14 @@ const About = () => {
         <div class="section about align-left" id="about-section">
             <div class="fw">
                 <div class="text-box">
-                    <h1 class="animated">👋 Hello! <br />My name is Phillip Ngo, <br />I'm a software developer. <br /></h1>
+                    <h1 class="animated"><span role="img" aria-label="hand waving">👋</span> Hello! <br />My name is Phillip Ngo, <br />I'm a software developer.<br /></h1>
                     <p class="animated">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <br />laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi <br />architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas <br />sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error.
-			</p>
+                        Developer with a background in business. I love working with technology as well as learning new ones. <br />
+                        Got an interesting project you want to talk about? <a href="#">Let's chat.</a>
+                    </p>
                 </div>
                 <div class="bts">
-                    <a href="#" class="btn extra animated">Download Resume</a>
+                    <a href="#" class="btn extra animated">Check out my resume.</a>
                 </div>
             </div>
         </div>
