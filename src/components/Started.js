@@ -10,12 +10,11 @@ const Started = () => {
                 <div class="vertical-center">
                     <div class="st-title align-center">
                         <div class="typing-title">
-                            <p>UI/UX Design</p>
-                            <p>Brand Identity</p>
+                            <p>Web Applications</p>
+                            <p>Problem Solver</p>
                             <p>Web Design</p>
                             <p>Mobile Apps</p>
                             <p>Analytics</p>
-                            <p>Photography</p>
                         </div>
                         <span class="typed-title"></span>
                     </div>

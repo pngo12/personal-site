@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Header = () => {
     return (
         <header class="header">
@@ -13,7 +12,7 @@ const Header = () => {
                     <ul>
                         <li><a href="#about-section">About</a></li>
                         <li><a href="#services-section">Skills</a></li>
-                        <li><a href="#works-section">Works</a></li>
+                        <li><a href="#works-section">Projects</a></li>
                         <li><a href="#contact-section">Contact</a></li>
                     </ul>
                     <a href="#" class="close"></a>
