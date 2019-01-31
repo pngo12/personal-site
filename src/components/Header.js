@@ -1,24 +1,13 @@
 import React from 'react';
 
-const Header = () => {
+const Header = props => {
     return (
-        <header class="header">
-            <div class="fw">
-                <div class="logo">
-                    <a href="#">Phillip Ngo</a>
-                </div>
-                <a href="#" class="menu-btn"><span></span></a>
-                <div class="top-menu">
-                    <ul>
-                        <li><a href="#about-section">About</a></li>
-                        <li><a href="#services-section">Experience</a></li>
-                        <li><a href="#services-section">Skills</a></li>
-                        <li><a href="#works-section">Projects</a></li>
-                        <li><a href="#contact-section">Contact</a></li>
-                    </ul>
-                    <a href="#" class="close"></a>
-                </div>
-            </div>
+        <header className="pa3 pa5-ns">
+            <h1 className="f3 f1-m f-headline-l"> {props.title} </h1>
+            <h1 className="f3 f2-m f1-l"> {props.subtitle} </h1>
+            <p className="f4 lh-copy">
+                {props.body}
+            </p>
         </header>
     );
 }

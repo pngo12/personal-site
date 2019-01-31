@@ -1,21 +1,17 @@
 import React from 'react';
 
-const About = () => {
+const About = props => {
     return (
-        <div class="section about align-left" id="about-section">
-            <div class="fw">
-                <div class="text-box">
-                    <h1 class="animated"><span role="img" aria-label="hand waving">👋</span> Hello! <br />My name is Phillip Ngo, <br />I'm a software developer.<br /></h1>
-                    <p class="animated">
-                        Developer with a background in business. I love working with technology as well as learning new ones. <br />
-                        Got an interesting project you want to talk about? <a href="#">Let's chat.</a>
-                    </p>
-                </div>
-                <div class="bts">
-                    <a href="#" class="btn extra animated">Check out my resume.</a>
-                </div>
-            </div>
-        </div>
+        <main class="pa3 pa5-ns">
+            <p class="f4 lh-copy measure">
+            {props.text}
+                Typography has one plain duty before it and that is to convey information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+        </main>
+
     );
 }
 
