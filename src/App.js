@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './components/About';
 import Header from './components/Header';
+import Contact from './components/Contact'
 import './App.css';
 
 class App extends Component {
@@ -28,7 +29,12 @@ class App extends Component {
             3
       </div>
           <div className="outline w-60 pv5 mv3">
-            4
+            <Contact 
+            title="Let's connect"
+            email="pngo12@gmail.com"
+            github="pngo12"
+            linkedIn="Phillip Ngo"
+            />
       </div>
         </div>
       </div>
