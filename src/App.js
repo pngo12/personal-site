@@ -4,25 +4,15 @@ import Contact from './components/Contact';
 import Skills from './components/Skills';
 import './App.css';
 
-// const bullets = `
-//   • JavaScript
-//   • React
-//   • Redux
-//   • Node.js
-//   • Express.js
-//   • GraphQL
-//   • C# (ASP.NET Core)
-// `
-
 class App extends Component {
   render() {
     const skills =['JavaScript, React, Redux, Node.js, Express.js, GraphQL, C# (ASP.NET Core)']
     return (
         <div className="App">
           <div className="flex flex-column items-center">
-            <div className="w-50">
+          <div className="w-50 pl3 pa5-ns">
               <Main
-                title="👋 Hello there!"
+                title="👋 Hey there!"
                 subtitle="I'm Phillip Ngo 👨‍💻"
                 body="I'm a software developer with a business background based in the United States. I love solving challenging problems,
                 and all things technology."
@@ -35,7 +25,7 @@ class App extends Component {
                 I'm also a bit of a coffee dork ☕️"
               />
             </div>
-            <div className="w-50">
+          <div className="w-50 pa3 pa5-ns">
               <Skills 
               title="Technical Skills"
               text="I believe in the right tool for the right job. I'm mainly working in the JavaScript environment currently but below are a few technologies that I do use."
