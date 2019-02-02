@@ -6,11 +6,11 @@ import './App.css';
 
 class App extends Component {
   render() {
-    const skills =['JavaScript, React, Redux, Node.js, Express.js, GraphQL, C# (ASP.NET Core)']
+    const skills =['JavaScript', 'React', 'Redux', 'Node.js', 'Express.js', 'GraphQL', 'C# (ASP.NET Core)'];
     return (
         <div className="App">
           <div className="flex flex-column items-center">
-          <div className="w-50 pl3 pa5-ns">
+          <div className="w-50 pl3 pv2-ns" id="test">
               <Main
                 title="👋 Hey there!"
                 subtitle="I'm Phillip Ngo 👨‍💻"
@@ -25,11 +25,11 @@ class App extends Component {
                 I'm also a bit of a coffee dork ☕️"
               />
             </div>
-          <div className="w-50 pa3 pa5-ns">
+          <div className="w-50 pl3 pv2-ns">
               <Skills 
               title="Technical Skills"
-              text="I believe in the right tool for the right job. I'm mainly working in the JavaScript environment currently but below are a few technologies that I do use."
-              bullets={skills.map(item => item)}
+              text="I believe in the right tool for the right job. I'm mainly working in the JavaScript environment currently but below are a few technologies that I do use:"
+              bullets={skills}
               />
             </div>
             <div className="w-50 pa1 pb5">
