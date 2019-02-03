@@ -1,9 +1,13 @@
 import React from 'react';
 
 const Skills = props => {
-    const bullets = props.bullets
-    const skillsList = bullets.map(skill =>
-        <li>{skill}</li>
+    const columnOne = props.columnOne;
+    const columnTwo = props.columnTwo;
+    const skillsColumnOne = columnOne.map((skill, i) =>
+        <li key={i}>{skill}</li>
+    );
+    const skillsColumnTwo = columnTwo.map((skill, i) =>
+        <li key={i}>{skill}</li>
     );
     return (
         <div>
@@ -11,16 +15,16 @@ const Skills = props => {
             <p className="f4 lh-copy">
                 {props.text}
             </p>
-            <div class="mw9 center ph3-ns">
-                <div class="cf ph2-ns">
-                    <div class="fl w-50-ns ph2">
+            <div className="mw9 center ph3-ns">
+                <div className="cf ph2-ns">
+                    <div className="fl w-50-ns ph2">
                         <ul className="f4 lh-copy">
-                            {skillsList}
+                            {skillsColumnOne}
                         </ul>
                     </div>
-                    <div class="fl w-50-ns ph2">
+                    <div className="fl w-50-ns ph2">
                         <ul className="f4 lh-copy">
-                            {skillsList}
+                            {skillsColumnTwo}
                         </ul>
                     </div>
                 </div>
