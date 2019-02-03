@@ -21,7 +21,7 @@ class App extends Component {
                 text="I studied Business Administration and started my career in marketing. 
                 I was a full-time analyst at a SAAS company before deciding to change career paths.
                 I'm always trying to be a better developer. Whether it's learning new technologies or mastering current ones,
-                I enjoy it all. I like collaborating on projects so feel free to contact me if you'd like to work collaborate."
+                I enjoy it all. I also like collaborating on projects, so feel free to contact me if you'd like to work together."
                 text2="Apart from technology, I love staying active. I'm a huge snowboarder🏂 and love combat sports. Particularly Muay Thai🥊 and Brazillian Jiu Jitsu🥋.
                 I'm also a bit of a coffee dork. ☕️"
               />

@@ -10,7 +10,7 @@ const Skills = props => {
         <li key={i}>{skill}</li>
     );
     return (
-        <div>
+        <section>
             <h1 className="f3 f2-m lh-solid">{props.title}</h1>
             <p className="f4 lh-copy">
                 {props.text}
@@ -29,7 +29,7 @@ const Skills = props => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
